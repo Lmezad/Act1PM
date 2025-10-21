@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Actividad1">
         <activity
+            android:name=".Activ3"
+            android:exported="false" />
+        <activity
+            android:name=".Activ2"
+            android:exported="false" />
+        <activity
+            android:name=".Activ1"
+            android:exported="false" />
+        <activity
             android:name=".About"
             android:exported="false" />
         <activity
