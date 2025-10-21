@@ -43,3 +43,4 @@ class MainActivity: AppCompatActivity() {
 
 
 
+// -no hay strings definidos,-tiene 3 menus que llevan a 3 actividades distintas en las que cada uno tiene un boton de Menu (que es distinto cada uno)
