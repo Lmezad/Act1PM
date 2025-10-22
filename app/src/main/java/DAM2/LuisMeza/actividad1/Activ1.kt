@@ -11,7 +11,7 @@ class Activ1 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_activ1)
-
+            // ESTO ES UNA PRUEBA DE GIT
             val botonmenu=findViewById<Button>(R.id.botonMenu)
             botonmenu.setOnClickListener{
                 finish()
