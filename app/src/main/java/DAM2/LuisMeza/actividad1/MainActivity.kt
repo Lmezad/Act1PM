@@ -41,6 +41,8 @@ class MainActivity: AppCompatActivity() {
 
         }
 
+        // codigo para boton que cierra el app---> val buttonacerca1 = findViewById<Button>(R.id.buttonacerca1)
+//            buttonacerca1.setOnClickListener {
+//                Toast.makeText(this, "Cerrando", Toast.LENGTH_SHORT).show()
+//                finish()
 
-
-// -no hay strings definidos,-tiene 3 menus que llevan a 3 actividades distintas en las que cada uno tiene un boton de Menu (que es distinto cada uno)
