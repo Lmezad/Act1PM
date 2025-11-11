@@ -37,18 +37,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="164dp"
-        android:layout_height="177dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="294dp"
+        android:id="@+id/imageView2"
+        android:layout_width="236dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="178dp"
         android:layout_marginEnd="123dp"
-        android:layout_marginBottom="118dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="154dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonVolver"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/buttonVolver"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/fotolinkeding" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Appby"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/mass_effect_n7_sign" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
