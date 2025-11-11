@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Actividad1</string>
+    <string name="Menu">Menu</string>
+    <string name="Home">Home</string>
+    <string name="About">About</string>
+    <string name="volver">Volver</string>
+    <string name="Appby">App by : Luis Meza</string>
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
 </resources>
