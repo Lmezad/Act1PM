@@ -1,5 +1,6 @@
 package DAM2.LuisMeza.actividad1
 
+import DAM2.LuisMeza.actividad1.databinding.ActivityActiv2Binding
 import android.os.Bundle
 import android.widget.Button
 import androidx.activity.enableEdgeToEdge
@@ -8,12 +9,17 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
 class Activ2 : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_activ2)
 
-        val botonmenu2=findViewById<Button>(R.id.botonMenu2)
-        botonmenu2.setOnClickListener{
+    private lateinit var binding: ActivityActiv2Binding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+
+        super.onCreate(savedInstanceState)
+
+        binding = ActivityActiv2Binding.inflate(layoutInflater)
+        setContentView(binding.root)
+        // boton back
+        binding.botonMenu2.setOnClickListener{
             finish()
         }
     }
